@@ -1,65 +1,114 @@
-*{
-  margin:0;
-}
-.linkedin-link{
+.linkedin-link {
   height: 50px;
   width: 150px;
 }
-.github-link{
+
+.github-link {
   height: 50px;
   width: 100px;
 }
-.Mypic{
-  height: 300px;
-  width: 400px;
+
+
+
+#topBar {
+  display: flex;
+  justify-content: row;
+  background-color: rgba(22, 22, 23, .8);
 }
-.links{
+
+.links {
   display: flex;
   justify-content: flex-end;
-  gap: 18px;
-  font-size: 35px;
-  color: black;
+  gap: 1rem;
+  padding-right: 5%;
+  font-size: 2rem;
+  padding-top: 1rem;
+
   text-decoration: none;
   font-family: 'Courier New', Courier, monospace;
-  
-}
-.name{
-  font-size: 50px;
-  font-family: 'Courier New', Courier, monospace;
-  display: flex; 
-  justify-content: flex-start;
 
 }
-body{
+
+/* Added flex grow to 4 to push the links to the right side in a row */
+.name {
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: flex-start;
+  flex-grow: 4;
+  padding-left: 5%;
+
+}
+
+body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-    padding-top: 20px;
+  padding-top: 20px;
   padding-left: 20px;
+  min-height: 100vh;
+  margin-top: auto;
 }
-a{
-  text-decoration: none; color: black;
+
+a {
+  text-decoration: none;
+  color: black;
 }
-a:visited{
+
+a:visited {
   text-decoration: none;
 }
+
 a:hover {
-  text-decoration:none; color: blue;
+  text-decoration: none;
+  color: blue;
 }
-a:focus{
+
+a:focus {
   text-decoration: none;
 }
-h1,h2,h3{
+
+#content {
+  display: flex;
   font-family: 'Courier New', Courier, monospace;
-  flex: 1;
+  justify-content: center;
+  flex-direction: column;
 }
-footer{
+
+.sentence-1 {
+
+  padding-top: 6rem;
+}
+
+.sentence-2 {
+
+  padding-top: 2rem;
+}
+
+.sentence-3 {
+
+  padding-top: 3rem;
+}
+
+.myPic {
+
+  height: 300px;
+  width: 400px;
+
+
+}
+
+
+
+footer {
   flex-shrink: 0;
   margin: 0 auto;
-  padding-top: 50px;
-  
+
+  margin-top: auto;
+
 }
-p{
+
+p {
   text-align: center;
- 
+
 }
