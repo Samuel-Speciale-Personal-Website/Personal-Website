@@ -100,7 +100,37 @@ a:focus {
 
 }
 
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
 
+h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.info {
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.football {
+  margin: 2rem auto 2rem auto;
+}
+
+.basketball {
+  margin: 2rem auto 2rem auto;
+}
+
+.technology {
+  margin: 2rem auto 2rem auto;
+}
 
 
 
