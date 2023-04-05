@@ -22,6 +22,7 @@
   text-decoration: none;
   font-family: 'Courier New', Courier, monospace;
 
+
 }
 
 a {
@@ -50,6 +51,7 @@ a:focus {
   justify-content: flex-start;
   flex-grow: 4;
   padding-left: 5%;
+  color: whitesmoke;
 
 }
 
@@ -64,6 +66,7 @@ body {
   align-items: center;
   margin-top: auto;
   position: absolute;
+
 }
 
 #content {
@@ -106,9 +109,64 @@ body {
 
 }
 
+.info {
+  text-align: center;
+  margin: auto 2rem;
+  display: flex;
 
+}
 
+.me {
+  margin-left: 10%;
+}
 
+.football {
+  margin-left: 10%;
+  margin-right: auto;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.basketball {
+  margin-left: 10%;
+  text-align: center;
+  margin-right: auto;
+  font-size: 2rem;
+}
+
+.technology {
+  margin-left: 10%;
+  text-align: center;
+  margin-right: auto;
+  font-size: 2rem;
+}
+
+#portfolio {
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.firstProject {
+  margin-top: 35%;
+  font-size: 5rem;
+
+}
+
+.firstInfo {
+  font-size: 2rem;
+}
+
+.secondProject {
+  margin-top: 20%;
+  font-size: 5rem;
+}
+
+.secondInfo {
+  font-size: 2rem;
+}
 
 footer {
   position: fixed;

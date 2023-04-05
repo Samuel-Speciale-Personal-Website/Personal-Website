@@ -132,6 +132,30 @@ h3 {
   margin: 2rem auto 2rem auto;
 }
 
+#portfolio {
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.firstProject {
+  margin-top: 8rem;
+}
+
+.firstInfo {
+  width: 75%;
+}
+
+.secondProject {
+  margin-top: 4rem;
+
+}
+
+.secondInfo {
+  width: 75%;
+}
+
 
 
 footer {
