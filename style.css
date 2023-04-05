@@ -156,7 +156,97 @@ h3 {
   width: 75%;
 }
 
+#contactHeader {
+  color: whitesmoke;
+  margin-top: 6rem;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 
+}
+
+.nameBoxInfo {
+  display: block;
+  font: 2rem 'Fira Sans', sans-serif;
+  color: whitesmoke;
+  text-align: center;
+  margin: 8rem 35% 0 35%;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.nameBox {
+  display: block;
+  font: 1.5rem 'Fira Sans', sans-serif;
+  margin: 1rem 40% 1rem 42%;
+  border: 2px solid gray;
+  border-radius: 4px;
+
+}
+
+.emailInfo {
+  display: block;
+  font: 2rem 'Fira Sans', sans-serif;
+  color: whitesmoke;
+  text-align: center;
+  margin: 3rem 35% 0 35%;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+
+}
+
+.emailBox {
+  display: block;
+  font: 1.5rem 'Fira Sans', sans-serif;
+  margin: 1rem 40% 1rem 42%;
+  border: 2px solid gray;
+  border-radius: 4px;
+
+}
+
+.textInfo {
+  display: block;
+  font: 2rem 'Fira Sans', sans-serif;
+  color: whitesmoke;
+  text-align: center;
+  margin: 3rem 35% 0 35%;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.textBox {
+  display: block;
+  font: 1.5rem 'Fira Sans', sans-serif;
+  margin: 1rem 40% 1rem 42%;
+  border: 2px solid gray;
+  border-radius: 4px;
+}
+
+.submitButton {
+  color: whitesmoke;
+  background-color: transparent;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 2rem 4rem;
+  margin: 2rem 0 0 45%;
+}
+
+.submitButton:hover {
+  background-color: whitesmoke;
+  color: grey;
+}
 
 footer {
   position: fixed;
