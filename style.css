@@ -1,65 +1,289 @@
-*{
-  margin:0;
+* {
+  padding: 0;
+  /* margin: 0; */
 }
-.linkedin-link{
-  height: 50px;
-  width: 150px;
+
+#topBar {
+  display: flex;
+  justify-content: row;
+  background-color: rgba(22, 22, 23, .8);
+  z-index: 3;
+  color: whitesmoke;
 }
-.github-link{
-  height: 50px;
-  width: 100px;
-}
-.Mypic{
-  height: 300px;
-  width: 400px;
-}
-.links{
+
+.links {
   display: flex;
   justify-content: flex-end;
-  gap: 18px;
-  font-size: 35px;
-  color: black;
+  gap: 1rem;
+  padding-right: 5%;
+  font-size: 2rem;
+  padding-top: 1rem;
   text-decoration: none;
   font-family: 'Courier New', Courier, monospace;
-  
-}
-.name{
-  font-size: 50px;
-  font-family: 'Courier New', Courier, monospace;
-  display: flex; 
-  justify-content: flex-start;
 
 }
-body{
+
+/* Added flex grow to 4 to push the links to the right side in a row */
+.name {
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: flex-start;
+  flex-grow: 4;
+  padding-left: 5%;
+
+}
+
+body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-    padding-top: 20px;
-  padding-left: 20px;
+  background-image: url(images/spurslogo.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+
+  margin-top: auto;
+  position: relative;
 }
-a{
-  text-decoration: none; color: black;
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
 }
-a:visited{
+
+a:visited {
   text-decoration: none;
 }
+
 a:hover {
-  text-decoration:none; color: blue;
+  text-decoration: none;
+  color: rgb(113, 113, 113);
 }
-a:focus{
+
+a:focus {
   text-decoration: none;
 }
-h1,h2,h3{
+
+#content {
+  display: flex;
   font-family: 'Courier New', Courier, monospace;
-  flex: 1;
-}
-footer{
-  flex-shrink: 0;
-  margin: 0 auto;
-  padding-top: 50px;
-  
-}
-p{
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 5rem;
+  z-index: 3;
   text-align: center;
- 
+  color: whitesmoke;
 }
+
+.sentence-1 {
+  font-size: 3rem;
+}
+
+.sentence-2 {
+  font-size: 3rem;
+}
+
+.sentence-3 {
+  font-size: 2rem;
+}
+
+.myPic {
+  width: 50%;
+  display: block;
+  border: 5px solid black;
+  margin: 0 auto 5rem auto;
+  opacity: .8;
+
+
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.info {
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.football {
+  margin: 2rem 10rem 10rem 10rem;
+  font-size: 2rem;
+}
+
+.basketball {
+  margin: 2rem 10rem 2rem 10rem;
+  font-size: 2rem;
+}
+
+.technology {
+  margin: 2rem 10rem 2rem 10rem;
+  font-size: 2rem;
+}
+
+#portfolio {
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.firstProject {
+  margin-top: 8rem;
+}
+
+.firstInfo {
+  width: 75%;
+}
+
+.secondProject {
+  margin-top: 4rem;
+
+}
+
+.secondInfo {
+  width: 75%;
+}
+
+#contactHeader {
+  color: whitesmoke;
+  margin-top: 6rem;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+
+}
+
+.nameBoxInfo {
+  display: block;
+  font: 2rem 'Fira Sans', sans-serif;
+  color: whitesmoke;
+  text-align: center;
+  margin: 8rem 35% 0 35%;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.nameBox {
+  display: block;
+  font: 1.5rem 'Fira Sans', sans-serif;
+  margin: 1rem 40% 1rem 42%;
+  border: 2px solid gray;
+  border-radius: 4px;
+
+}
+
+.emailInfo {
+  display: block;
+  font: 2rem 'Fira Sans', sans-serif;
+  color: whitesmoke;
+  text-align: center;
+  margin: 3rem 35% 0 35%;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+
+}
+
+.emailBox {
+  display: block;
+  font: 1.5rem 'Fira Sans', sans-serif;
+  margin: 1rem 40% 1rem 42%;
+  border: 2px solid gray;
+  border-radius: 4px;
+
+}
+
+.textInfo {
+  display: block;
+  font: 2rem 'Fira Sans', sans-serif;
+  color: whitesmoke;
+  text-align: center;
+  margin: 3rem 35% 0 35%;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.textBox {
+  display: block;
+  font: 1.5rem 'Fira Sans', sans-serif;
+  margin: 1rem 40% 1rem 42%;
+  border: 2px solid gray;
+  border-radius: 4px;
+}
+
+#submit {
+  color: whitesmoke;
+  background-color: transparent;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 2rem 4rem;
+  margin: 2rem 0 0 45%;
+}
+
+.submitButton:hover {
+  background-color: whitesmoke;
+  color: grey;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(22, 22, 23, .8);
+  flex-shrink: 0;
+  margin: auto auto;
+  text-align: center;
+  z-index: 3;
+  opacity: .9;
+}
+
+.linkedin-link {
+  height: 50px;
+  width: 150px;
+}
+
+.github-link {
+  height: 50px;
+  width: 100px;
+}
+
+p {
+  text-align: center;
+
+}
+
+/* 
+@media(max-width:480px) {
+  .class {
+    margin: ;
+    padding: ;
+  }
+} */

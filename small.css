@@ -1,0 +1,226 @@
+/* this is css for 480px width or less  */
+* {
+  padding: 0;
+  /* margin: 0; */
+}
+
+#topBar {
+  display: flex;
+  justify-content: row;
+  background-color: rgba(22, 22, 23, .8);
+  z-index: 3;
+  color: whitesmoke;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding-right: 5%;
+  font-size: 2rem;
+  padding-top: 1rem;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(113, 113, 113);
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+/* Added flex grow to 4 to push the links to the right side in a row */
+.name {
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: flex-start;
+  flex-grow: 4;
+  padding-left: 5%;
+  color: whitesmoke;
+
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(images/spurslogo.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  align-items: center;
+  margin-top: auto;
+  position: absolute;
+
+}
+
+#content {
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* position: absolute; */
+  /* top: 15rem; */
+  z-index: 3;
+  text-align: center;
+  color: whitesmoke;
+  position: fixed;
+  /* top: 50%; */
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.sentence-1 {
+  font-size: 3rem;
+}
+
+.sentence-2 {
+  font-size: 3rem;
+}
+
+.sentence-3 {
+  font-size: 2rem;
+}
+
+.myPic {
+  width: 100%;
+  display: block;
+  border: 5px solid black;
+  margin: 0 auto 5rem auto;
+  opacity: .8;
+
+
+}
+
+.info {
+  text-align: center;
+  margin: auto 2rem;
+  display: flex;
+
+}
+
+.me {
+  margin-left: 10%;
+}
+
+.football {
+  margin-left: 10%;
+  margin-right: auto;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.basketball {
+  margin-left: 10%;
+  text-align: center;
+  margin-right: auto;
+  font-size: 2rem;
+}
+
+.technology {
+  margin-left: 10%;
+  text-align: center;
+  margin-right: auto;
+  font-size: 2rem;
+}
+
+#portfolio {
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.firstProject {
+  margin-top: 35%;
+  font-size: 5rem;
+
+}
+
+.firstInfo {
+  font-size: 2rem;
+}
+
+.secondProject {
+  margin-top: 20%;
+  font-size: 5rem;
+}
+
+.secondInfo {
+  font-size: 2rem;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(22, 22, 23, .8);
+  flex-shrink: 0;
+  margin: auto auto;
+  text-align: center;
+  z-index: 3;
+  opacity: .9;
+}
+
+.linkedin-link {
+  height: 50px;
+  width: 150px;
+}
+
+.github-link {
+  height: 50px;
+  width: 100px;
+}
+
+p {
+  text-align: center;
+
+}
+
+#formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#contactHeader {
+  display: flex;
+  text-align: center;
+  margin: 2rem 0 2rem 4rem;
+
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4rem;
+
+}
+
+#submit {
+  margin-top: 6rem;
+  margin-left: 0;
+}

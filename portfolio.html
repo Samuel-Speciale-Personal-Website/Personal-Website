@@ -9,26 +9,35 @@
   <meta name="Personal Website Main Page" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css"
+    media="only screen and (max-width: 480px), only screen and (max-device-width: 480px)" href="small.css" />
 </head>
 
 <body>
   <header>
-    <span class="name"> Samuel Speciale</span>
-    <nav class="links">
-      <a class="active" href="index.html">HOME</a>
-      <a href="about.html">ABOUT</a>
-      <a href="portfolio.html">PORTFOLIO</a>
+    <div id="topBar">
+      <span class="name"> Samuel Speciale</span>
+      <nav class="links">
+        <a class="active" href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="portfolio.html">PORTFOLIO</a>
+        <a href="contact.html">CONTACT</a>
 
-    </nav>
+      </nav>
   </header>
-  <h3>The First Project</h3>
-  <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam accusamus fugit porro atque, perspiciatis
-    voluptas ipsum autem magnam ullam asperiores. Totam eos maxime, aspernatur dolorum laborum iste minus a provident?
-  </span>
-  <h3>The Second Project</h3>
-  <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam eaque molestiae, nihil itaque hic modi
-    asperiores
-    nulla totam dolorum odit, temporibus ullam quis repellat assumenda autem sint ipsum enim debitis.</span>
+  <div id="portfolio">
+    <h3 class="firstProject">The First Project</h3>
+    <span class="firstInfo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam accusamus fugit porro
+      atque, perspiciatis
+      voluptas ipsum autem magnam ullam asperiores. Totam eos maxime, aspernatur dolorum laborum iste minus a provident?
+    </span>
+    <h3 class="secondProject">The Second Project</h3>
+    <span class="secondInfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam eaque molestiae, nihil
+      itaque
+      hic modi
+      asperiores
+      nulla totam dolorum odit, temporibus ullam quis repellat assumenda autem sint ipsum enim debitis.</span>
+  </div>
   <script src="javascript.js" async defer></script>
 
   <footer>
